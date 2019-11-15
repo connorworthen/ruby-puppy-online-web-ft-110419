@@ -20,5 +20,5 @@ class Dog
     @@all.print
 
     @@all.save
-  
+
 end
