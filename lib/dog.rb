@@ -1,6 +1,6 @@
 class Dog
 
-  @@all = ["Pluto", "Fido", "Maddy"]
+  @@all = []
 
   attr_accessor :self
 
@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    puts @@all.inspect
+    @@all.each { |a| puts a }
   end
 
 end
