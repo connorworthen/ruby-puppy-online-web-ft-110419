@@ -17,12 +17,8 @@ class Dog
     @@all.clear
   end
 
-  def self.print_all
     @@all.print
-  end
 
-  def self.save
     @@all.save
-  end
   
 end
