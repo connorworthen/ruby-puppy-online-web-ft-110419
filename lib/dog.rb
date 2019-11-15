@@ -20,9 +20,9 @@ class Dog
   def self.print_all(name)
     @name = name
     @@all << self
-      puts @@all
-    end
+    puts @@all
   end
+  
 
 
 
