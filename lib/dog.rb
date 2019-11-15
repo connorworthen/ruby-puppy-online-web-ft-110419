@@ -18,7 +18,8 @@ class Dog
   end
 
   def self.print_all(empty)
-    p @@all.reject(&:empty?)
+    @@all.each do |i|
+      i.empty? and p i 
   end
 
 
