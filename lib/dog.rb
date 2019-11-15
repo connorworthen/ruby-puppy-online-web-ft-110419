@@ -1,6 +1,6 @@
 class Dog
 
-  @@all = []
+  @@all = ["Pluto", "Fido", "Maddy"]
 
   attr_accessor :self
 
