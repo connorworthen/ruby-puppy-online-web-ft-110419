@@ -19,7 +19,8 @@ class Dog
 
   def self.print_all(empty)
     @@all.each do |i|
-      i.empty? and p i 
+      i.empty? and p i
+    end
   end
 
 
