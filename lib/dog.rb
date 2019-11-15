@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    puts @@all.inspect
+    return @@all.to_s
   end
 
 end
