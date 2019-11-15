@@ -18,7 +18,13 @@ class Dog
   end
 
   def self.print_all
-    @@all.each { |a| puts a }
+    @@all.each_with_index do |i, index|
+      if i. blank?
+        puts index.inspect
+      end
+    end
+
+    
   end
 
 end
